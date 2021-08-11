@@ -22,7 +22,7 @@ public class Main {
 		visit = new boolean[num];
 		dfs(num, line, 0);
 		System.out.println(sb);
- 
+        
 	}
  
 	public static void dfs(int num, int line, int depth) {
